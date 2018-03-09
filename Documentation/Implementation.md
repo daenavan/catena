@@ -81,7 +81,7 @@ The exact formatting rules can be found in the `SQLStandardDialect` class. Among
 form follows the following rules:
 
 * SQL keywords are capitalized (`SELECT` instead of `select`)
-* Extraneous whitespace is removed (e.g. `SELECT a, b` instead of `SELECT a,  b`)
+* Extraneous whitespace is removed (e.g. `SELECT a,b` instead of `SELECT a,  b`)
 * There is always whitespace in specific locations, such as between an operator and its operands (e.g. `1 + 1` instead of `1+1`)
 * Field and table names are always quoted (`CREATE TABLE "foo" ("x" INT);` instead of `x INT`, `TABLE foo`)
 * There are parenthesis around specific parts of an expression (sometimes more than would be required)
